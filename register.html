@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <a href="index.html">Student Page</a>
+    <h1>Register</h1>
+    <form>
+      <label for="username">Username</label><br />
+      <input type="text" id="username" />
+      <br /><br />
+      <label for="email">Email</label><br />
+      <input type="email" id="email" /><br /><br />
+      <label for="password">Password</label><br />
+      <input type="password" id="password" /><br /><br />
+      <p>Jenis kelamin</p>
+      <input type="radio" id="pria" name="gender" value="pria" />
+      <label for="pria">Pria</label>
+      <input type="radio" id="wanita" name="gender" value="wanita" />
+      <label for="wanita">Wanita</label>
+      <p>Hobi</p>
+      <input type="checkbox" id="makan" name="hobby" value="makan" />
+      <label for="makan">Makan</label>
+      <input type="checkbox" id="olahraga" name="hobby" value="olahraga" />
+      <label for="olahraga">Olahraga</label>
+      <input type="checkbox" id="berenang" name="hobby" value="berenang" />
+      <label for="berenang">Berenang</label>
+      <p>Pendidikan</p>
+      <select name="education" id="education">
+        <option value="sma/smk">SMK/SMA</option>
+        <option value="sarjana">Sarjana</option>
+        <option value="magister">Magister</option>
+      </select>
+      <br /><br />
+      <label for="bio">Bio</label>
+      <br />
+      <textarea name="bio" id="bio" cols="40" rows="10"></textarea>
+      <br /><br />
+      <button type="submit">Kirim</button>
+    </form>
+  </body>
+</html>
